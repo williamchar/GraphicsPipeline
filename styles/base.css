@@ -1,0 +1,10 @@
+/* Let the sandbox canvas fill the viewport without JS mutating global styles */
+html, body { height: 100%; }
+body { margin: 0; }
+#gpu-canvas {
+  display: block;
+  width: 100%;
+  height: 100vh; /* viewport fill for the sandbox */
+}
+
+

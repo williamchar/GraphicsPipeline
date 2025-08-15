@@ -1,0 +1,47 @@
+/* Design tokens & a tiny base to ensure the viewport looks crisp immediately. */
+
+:root {
+    --color-bg: #1a1a1a;
+    --color-panel: #22252a;
+    --color-text: #f0f0f0;
+    --color-muted: #999999;
+    --axis-x: #ff6b6b;
+    --axis-y: #63ff9e;
+    --axis-z: #70a1ff;
+    --grid: rgba(204, 204, 204, 0.15);
+    --ground: rgba(50, 50, 50, 0.5);
+    --edge: #a0e6ff;
+    --vertex: #ffffff;
+    --label: #f0f0f0;
+    --highlight: #f0ff63;
+  
+    --font-sans: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+    --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+    --space-6: 32px;
+  
+    --radius-1: 4px;
+    --radius-2: 8px;
+    --radius-3: 12px;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    color: var(--color-text);
+    background: var(--color-bg);
+    font: 14px/1.5 var(--font-sans);
+  }
+  
+  canvas {
+    display: block;
+  }
+  
